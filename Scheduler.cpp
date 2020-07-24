@@ -208,25 +208,19 @@ void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &d
             return;
         }
         else {
-            for (size_t i = permLength; i < path.size(); ++i) {
-                Division &div = Divisions[path[i].get_Division_ID()];
-                size_t a = 0;
-                for(size_t j = 0; j < div.Riders.size(); j++) {
-                    if(div.Selected_Riders[j][path[i].get_Event_Number()] == false) {
-                        path[i].set_Rider_ID(div.Riders[j]);
-                        div.Selected_Riders[j][path[i].get_Event_Number()] = true;
-                        a = j;
-                        break;
+            Division &div = Divisions[path[permLength].get_Division_ID()];
+            for(size_t j = 0; j < div.Riders.size(); j++) {
+                if(div.Selected_Riders[j][path[permLength].get_Event_Number()] == false) {
+                    path[permLength].set_Rider_ID(div.Riders[j]);
+                    div.Selected_Riders[j][path[permLength].get_Event_Number()] = true;
+
+                    genPerms(path, permLength + 1, done);
+                    if(done == true) {
+                        return;
                     }
+                    path[permLength].set_Rider_ID(std::numeric_limits<size_t>::max());
+                    div.Selected_Riders[j][path[permLength].get_Event_Number()] = false;
                 }
-
-                genPerms(path, permLength + 1, done);
-                if(done == true) {
-                    return;
-                }
-
-                path[i].set_Rider_ID(std::numeric_limits<size_t>::max());
-                div.Selected_Riders[a][path[i].get_Event_Number()] = false;
             }
         }
     }
