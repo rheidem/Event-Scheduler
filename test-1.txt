@@ -1,4 +1,4 @@
-12 coaches, 5 divisions, 30 riders, 10 min padding
+12 coaches, 5 divisions, 30 riders, 6 min padding
 
 Coaches:
 Darby Weerstra
@@ -39,9 +39,9 @@ Sharda Wrench, Emily Heidema, Novice
 Mana Nigh, Jacob Knobloch, Training
 Kitty Narvaez, Adam Knobloch, Beginner Novice
 Katy Mcdonald, Darby Weerstra, Intermediate
-Angela Reser, No Coach, Novice
+Angela Reser, Darby Weerstra, Novice
 Romana Lemond, No Coach, Training
-Dorene Earls, No Coach, Preliminary
+Dorene Earls, Ryan Heidema, Preliminary
 Guillermo Zick, No Coach, Beginner Novice
 Janita Oslund, No Coach, Beginner Novice
 Keith Sandifer, No Coach, Novice
@@ -52,4 +52,3 @@ Brook Chennault, No Coach, Novice
 Wilford Schertz, No Coach, Beginner Novice
 Cody Thorn, No Coach, Intermediate
 Deena Spooner, No Coach, Training
-

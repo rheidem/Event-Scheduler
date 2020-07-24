@@ -11,8 +11,8 @@ Novice, 1 10:10, 1 14:00, 2 12:15
 
 Riders:
 Vannessa Stong, Darby Weerstra, Novice
-Nelly Yunker, No Coach, Beginner Novice
+Nelly Yunker, Darby Weerstra, Beginner Novice
 Ellyn Rasor, Ryan Heidema, Beginner Novice
 Tamatha Clairmont, Susan Weerstra, Novice
-Della Coplan, No Coach, Novice
-Carla Pfeil, No Coach, Beginner Novice
+Della Coplan, Ryan Heidema, Novice
+Carla Pfeil, Susan Weerstra, Beginner Novice

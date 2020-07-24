@@ -1,4 +1,4 @@
-1 coaches, 1 division, 5 riders, 6 min padding
+1 coaches, 1 division, 5 riders, 8 min padding
 
 Coaches:
 Darby Weerstra

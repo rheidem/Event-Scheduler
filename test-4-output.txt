@@ -1,0 +1,214 @@
+DAY 1:
+-------------------------------------
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 8:45
+
+Rider: Nelly Yunker
+Division: Training
+Coach: No Coach
+Time: 8:50
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: Ryan Heidema
+Time: 8:55
+
+Rider: Leighann Wymore
+Division: Novice
+Coach: Susan Weerstra
+Time: 8:55
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 9:00
+
+Rider: Pearlie Klos
+Division: Novice
+Coach: No Coach
+Time: 9:00
+
+Rider: Della Coplan
+Division: Training
+Coach: Susan Weerstra
+Time: 9:05
+
+Rider: Kathey Frame
+Division: Novice
+Coach: Dakota Paasman
+Time: 9:05
+
+Rider: Deena Spooner
+Division: Training
+Coach: No Coach
+Time: 9:10
+
+Rider: Mimi Haught
+Division: Novice
+Coach: No Coach
+Time: 9:10
+
+Rider: Carla Pfeil
+Division: Training
+Coach: Dakota Paasman
+Time: 9:15
+
+Rider: Stephany Stryker
+Division: Novice
+Coach: Ryan Heidema
+Time: 9:15
+
+Rider: Maryanna Terra
+Division: Novice
+Coach: Darby Weerstra
+Time: 9:20
+
+Rider: Brook Chennault
+Division: Novice
+Coach: No Coach
+Time: 9:25
+
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 14:00
+
+Rider: Leighann Wymore
+Division: Novice
+Coach: Susan Weerstra
+Time: 14:00
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: Ryan Heidema
+Time: 14:02
+
+Rider: Kathey Frame
+Division: Novice
+Coach: Dakota Paasman
+Time: 14:02
+
+Rider: Nelly Yunker
+Division: Training
+Coach: No Coach
+Time: 14:04
+
+Rider: Pearlie Klos
+Division: Novice
+Coach: No Coach
+Time: 14:04
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 14:06
+
+Rider: Mimi Haught
+Division: Novice
+Coach: No Coach
+Time: 14:06
+
+Rider: Deena Spooner
+Division: Training
+Coach: No Coach
+Time: 14:08
+
+Rider: Brook Chennault
+Division: Novice
+Coach: No Coach
+Time: 14:08
+
+Rider: Della Coplan
+Division: Training
+Coach: Susan Weerstra
+Time: 14:10
+
+Rider: Maryanna Terra
+Division: Novice
+Coach: Darby Weerstra
+Time: 14:10
+
+Rider: Carla Pfeil
+Division: Training
+Coach: Dakota Paasman
+Time: 14:12
+
+Rider: Stephany Stryker
+Division: Novice
+Coach: Ryan Heidema
+Time: 14:12
+
+DAY 2:
+-------------------------------------
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 10:00
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: Ryan Heidema
+Time: 10:02
+
+Rider: Della Coplan
+Division: Training
+Coach: Susan Weerstra
+Time: 10:04
+
+Rider: Pearlie Klos
+Division: Novice
+Coach: No Coach
+Time: 10:04
+
+Rider: Carla Pfeil
+Division: Training
+Coach: Dakota Paasman
+Time: 10:06
+
+Rider: Mimi Haught
+Division: Novice
+Coach: No Coach
+Time: 10:06
+
+Rider: Nelly Yunker
+Division: Training
+Coach: No Coach
+Time: 10:08
+
+Rider: Brook Chennault
+Division: Novice
+Coach: No Coach
+Time: 10:08
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 10:10
+
+Rider: Maryanna Terra
+Division: Novice
+Coach: Darby Weerstra
+Time: 10:10
+
+Rider: Deena Spooner
+Division: Training
+Coach: No Coach
+Time: 10:12
+
+Rider: Stephany Stryker
+Division: Novice
+Coach: Ryan Heidema
+Time: 10:12
+
+Rider: Leighann Wymore
+Division: Novice
+Coach: Susan Weerstra
+Time: 10:14
+
+Rider: Kathey Frame
+Division: Novice
+Coach: Dakota Paasman
+Time: 10:16
+
