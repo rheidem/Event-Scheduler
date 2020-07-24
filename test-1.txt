@@ -1,0 +1,55 @@
+12 coaches, 5 divisions, 30 riders, 10 min padding
+
+Coaches:
+Darby Weerstra
+Ryan Heidema
+Dakota Paasman
+Susan Weerstra
+Jack Beltz
+Dean Weerstra
+Chad Heidema
+Diane Heidema
+Emily Heidema
+Mason Weerstra
+Jacob Knobloch
+Adam Knobloch
+
+Divisions:
+Beginner Novice, 1 08:45, 1 13:20, 2 10:40
+Novice, 1 10:10, 1 14:00, 2 12:15
+Training, 1 08:30, 1 15:00, 2 14:00
+Preliminary, 1 12:10, 1 15:30, 2 13:00
+Intermediate, 1 13:00, 1 16:30, 2 10:00
+
+Riders:
+Vannessa Stong, Darby Weerstra, Novice
+Nelly Yunker, Darby Weerstra, Training
+Ellyn Rasor, Ryan Heidema, Preliminary
+Tamatha Clairmont, Chad Heidema, Intermediate
+Della Coplan, Jack Beltz, Training
+Carla Pfeil, Dakota Paasman, Beginner Novice
+Leighann Wymore, Diane Heidema, Training
+Pearlie Klos, Mason Weerstra, Preliminary
+Kathey Frame, Dean Weerstra, Novice
+Mimi Haught, Susan Weerstra, Preliminary
+Stephany Stryker, Chad Heidema, Beginner Novice
+Maryanna Terra, Darby Weerstra, Novice
+Refugia Browning, Diane Heidema, Preliminary
+Sharda Wrench, Emily Heidema, Novice
+Mana Nigh, Jacob Knobloch, Training
+Kitty Narvaez, Adam Knobloch, Beginner Novice
+Katy Mcdonald, Darby Weerstra, Intermediate
+Angela Reser, No Coach, Novice
+Romana Lemond, No Coach, Training
+Dorene Earls, No Coach, Preliminary
+Guillermo Zick, No Coach, Beginner Novice
+Janita Oslund, No Coach, Beginner Novice
+Keith Sandifer, No Coach, Novice
+Mark Spies, No Coach, Training
+Larraine Coatney, No Coach, Preliminary
+Nobuko Petersen, No Coach, Training
+Brook Chennault, No Coach, Novice
+Wilford Schertz, No Coach, Beginner Novice
+Cody Thorn, No Coach, Intermediate
+Deena Spooner, No Coach, Training
+

@@ -1,0 +1,18 @@
+3 coaches, 2 divisions, 6 riders, 10 min padding
+
+Coaches:
+Darby Weerstra
+Ryan Heidema
+Susan Weerstra
+
+Divisions:
+Beginner Novice, 1 08:45, 1 13:20, 2 10:40
+Novice, 1 10:10, 1 14:00, 2 12:15
+
+Riders:
+Vannessa Stong, Darby Weerstra, Novice
+Nelly Yunker, No Coach, Beginner Novice
+Ellyn Rasor, Ryan Heidema, Beginner Novice
+Tamatha Clairmont, Susan Weerstra, Novice
+Della Coplan, No Coach, Novice
+Carla Pfeil, No Coach, Beginner Novice

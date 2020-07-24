@@ -1,0 +1,94 @@
+DAY 1:
+-------------------------------------
+Rider: Nelly Yunker
+Division: Beginner Novice
+Coach: No Coach
+Time: 8:45
+
+Rider: Ellyn Rasor
+Division: Beginner Novice
+Coach: Ryan Heidema
+Time: 8:50
+
+Rider: Carla Pfeil
+Division: Beginner Novice
+Coach: No Coach
+Time: 8:55
+
+Rider: Vannessa Stong
+Division: Novice
+Coach: Darby Weerstra
+Time: 10:10
+
+Rider: Tamatha Clairmont
+Division: Novice
+Coach: Susan Weerstra
+Time: 10:15
+
+Rider: Della Coplan
+Division: Novice
+Coach: No Coach
+Time: 10:20
+
+Rider: Nelly Yunker
+Division: Beginner Novice
+Coach: No Coach
+Time: 13:20
+
+Rider: Ellyn Rasor
+Division: Beginner Novice
+Coach: Ryan Heidema
+Time: 13:22
+
+Rider: Carla Pfeil
+Division: Beginner Novice
+Coach: No Coach
+Time: 13:24
+
+Rider: Vannessa Stong
+Division: Novice
+Coach: Darby Weerstra
+Time: 14:00
+
+Rider: Tamatha Clairmont
+Division: Novice
+Coach: Susan Weerstra
+Time: 14:02
+
+Rider: Della Coplan
+Division: Novice
+Coach: No Coach
+Time: 14:04
+
+DAY 2:
+-------------------------------------
+Rider: Nelly Yunker
+Division: Beginner Novice
+Coach: No Coach
+Time: 10:40
+
+Rider: Ellyn Rasor
+Division: Beginner Novice
+Coach: Ryan Heidema
+Time: 10:42
+
+Rider: Carla Pfeil
+Division: Beginner Novice
+Coach: No Coach
+Time: 10:44
+
+Rider: Vannessa Stong
+Division: Novice
+Coach: Darby Weerstra
+Time: 12:15
+
+Rider: Tamatha Clairmont
+Division: Novice
+Coach: Susan Weerstra
+Time: 12:17
+
+Rider: Della Coplan
+Division: Novice
+Coach: No Coach
+Time: 12:19
+
