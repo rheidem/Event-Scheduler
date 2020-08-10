@@ -223,49 +223,77 @@ void Scheduler::CreateRideTimes() {
 // Looks at the last 'padding' minutes from most recent RideTime and ensures
 // no coaching conflicts
 bool Scheduler::promising(std::vector<RideTime> &path, size_t permLength) {
+    
+    // There won't be any conflicts when 0 or 1 RideTimes are in the vector
     if(permLength == 0 || permLength == 1) {
         return true;
     }
-    permLength--;
+    
+    permLength--; // decrement permLength to get the specifed RideTime
     size_t i = 1;
+    
+    // While the current RideTime is within the padding time of the i previous RideTimes, check
+    // for conflicts
     while(withinTime(path[permLength].get_Time(), path[permLength - i].get_Time(), padding)) {
-        // if previous ride time is within padding time and
+        
+        // if previous ride time is within padding time and Rider's have same Coach, return false,
+        // as this is the conflict
         if(Riders[path[permLength].get_Rider_ID()].get_Coach_ID() == Riders[path[permLength - i].get_Rider_ID()].get_Coach_ID()) {
             return false;
         }
+        
         if(i == permLength) { // if you get to the end, then there is no conflict
             return true;
         }
+        
         i++;
     }
+    
     return true;
+    
 } // Scheduler::promising()
 
 
 // Use backtracking to determine RideTimes so that no coach has conflicts,
 // immediately exit recursion as soon as solution is found
 void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &done) {
+    
     if (promising(path, permLength)) {
+        
         if(permLength == path.size()) {
-            // this is an acceptable solution, return and get out
+            
+            // This is an acceptable solution, return and get out
             done = true;
             return;
         }
+        
         else {
+            
+            // Get the division of the current RideTime
             Division &div = Divisions[path[permLength].get_Division_ID()];
+            
+            // For each Rider in this RideTime's Division, try each unselected Rider for compatibility
             for(size_t j = 0; j < div.Riders.size(); j++) {
                 if(div.Selected_Riders[j][path[permLength].get_Event_Number()] == false) {
+                    
+                    // Put the next available Rider into this RideTime
                     path[permLength].set_Rider_ID(div.Riders[j]);
                     div.Selected_Riders[j][path[permLength].get_Event_Number()] = true;
 
+                    // Look at the next RideTime
                     genPerms(path, permLength + 1, done);
+                    
+                    // If a solution is found, return and end recursion
                     if(done == true) {
                         return;
                     }
+                    
+                    // Reset the Rider at current RideTime back to infinity
                     path[permLength].set_Rider_ID(std::numeric_limits<size_t>::max());
                     div.Selected_Riders[j][path[permLength].get_Event_Number()] = false;
                 }
             }
+            
         }
     }
 } // Scheduler::genPerms()
