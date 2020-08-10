@@ -52,44 +52,16 @@ bool withinTime(Time t1, Time t2, int padding) {
 //                     SCHEDULER CLASS
 // ---------------------------------------------------------
 
-// Reads input and fills vectors for Coaches, Divisions, and Riders
-Scheduler::Scheduler() {
-    // Read in first line of input and reserve data for properties
-    string junk;;
-    size_t num_coaches;
-    size_t num_divisions;
-    size_t num_riders;
+// Helper function to read in the Riders
+void Scheduler::ReadRiders(size_t num_coaches, size_t num_divisions, size_t num_riders) {
     
-    // Read in and resize vectors
-    cin >> num_coaches >> junk;
-    Coaches.reserve(num_coaches);
-    
-    cin >> num_divisions;
-    Divisions.reserve(num_divisions);
-    
-    cin >> junk >> num_riders;
-    Riders.reserve(num_riders);
-    
-    // Read in padding
-    cin >> junk >> padding >> junk >> junk >> junk;
-    getline(cin, junk);
-    // Read in coach names
-    string coach_name;
-    for(size_t i = 0; i < num_coaches; i++) {
-        getline(cin, coach_name);
-        Coaches.push_back(coach_name);
-    }
-    
-    // Read in Divisions
+    string junk;
     cin >> junk;
-    for(size_t i = 0; i < num_divisions; i++) {
-        Divisions.emplace_back(Division());
-    }
     
-    // Read in Riders
-    cin >> junk;
     size_t no_coach = num_coaches;
+    
     for(size_t i = 0; i < num_riders; i++) {
+        
         string Name;
         string coach_name;
         string division;
@@ -97,9 +69,10 @@ Scheduler::Scheduler() {
         size_t Coach_ID = 0;
         size_t Division_ID = 0;
         
-        // Rider's name
+        // Rider's Name
         string s1, s2;
         cin >> s1;
+        
         if(s1.at(s1.length() - 1) == ',') {
             Name = s1.substr(0, s1.length() - 1);
         }
@@ -129,26 +102,72 @@ Scheduler::Scheduler() {
             }
         }
         
-        // Rider's division
+        // Rider's Division
         getline(cin, division);
         division = division.substr(1 , string::npos);
+        
         for(size_t i = 0; i < num_divisions; i++) {
             if(Divisions[i].get_Name() == division) {
                 Division_ID = i;
             }
         }
         
+        // Set the ID for Riders and set vector to false in Selected Riders
         Divisions[Division_ID].Riders.push_back(i);
         Divisions[Division_ID].Selected_Riders.push_back({false, false, false});
         
         Riders.emplace_back(Rider(Name, Division_ID, i, Coach_ID));
     }
+    
+} // ReadRiders()
+
+
+// Reads input and fills vectors for Coaches, Divisions, and Riders
+Scheduler::Scheduler() {
+    
+    // Read in first line of input and reserve data for properties
+    string junk;;
+    size_t num_coaches;
+    size_t num_divisions;
+    size_t num_riders;
+    
+    // Read in dimensions and reserve space for vectors
+    cin >> num_coaches >> junk;
+    Coaches.reserve(num_coaches);
+    
+    cin >> num_divisions;
+    Divisions.reserve(num_divisions);
+    
+    cin >> junk >> num_riders;
+    Riders.reserve(num_riders);
+    
+    // Read in padding
+    cin >> junk >> padding >> junk >> junk >> junk;
+    getline(cin, junk);
+    
+    // Read in Coach's names and store
+    string coach_name;
+    for(size_t i = 0; i < num_coaches; i++) {
+        getline(cin, coach_name);
+        Coaches.push_back(coach_name);
+    }
+    
+    // Read in Divisions and store
+    cin >> junk;
+    for(size_t i = 0; i < num_divisions; i++) {
+        Divisions.emplace_back(Division());
+    }
+    
+    // Read in Riders
+    ReadRiders(num_coaches, num_divisions, num_riders);
+    
 } // Scheduler::Scheduler()
 
 
 // Initialize vector of RideTimes and leave Rider_ID as infinity (not yet
 // assigned)
 void Scheduler::CreateRideTimes() {
+    
     // Get the number of days in the show
     size_t num_days = 0;
     
@@ -160,7 +179,7 @@ void Scheduler::CreateRideTimes() {
         }
     }
     
-    // Resize the outer RideTimes vector
+    // Resize the outer RideTimes vector for the number of days
     RideTimes.resize(num_days);
     
     // Create the vector of ride times for each day
@@ -169,14 +188,14 @@ void Scheduler::CreateRideTimes() {
             for(size_t k = 0; k < Divisions[i].Riders.size(); ++k) {
                 
                 // Get the start time of the event
-                Time t = Divisions[i].Event_Times[j];
+                Time Time = Divisions[i].Event_Times[j];
                 
                 // If dressage, 5 min between riders
                 size_t addTime;
                 if(j == 0) {
                     addTime = 5 * k;
                 }
-                // If stadium or XC, 2 min between riders
+                // If stadium or Cross Country, 2 min between riders
                 else {
                     addTime = 2 * k;
                 }
@@ -186,9 +205,9 @@ void Scheduler::CreateRideTimes() {
                 hour = addTime / 60;
                 min = addTime % 60;
                 
-                t.addTime(static_cast<int>(hour), static_cast<int>(min));
+                Time.addTime(static_cast<int>(hour), static_cast<int>(min));
                 
-                RideTimes[static_cast<size_t>(Divisions[i].Event_Days[j] - 1)].emplace_back(RideTime(t,i,j));
+                RideTimes[static_cast<size_t>(Divisions[i].Event_Days[j] - 1)].emplace_back(RideTime(Time,i,j));
             }
         }
     }
@@ -197,6 +216,7 @@ void Scheduler::CreateRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         sort(RideTimes[i].begin(), RideTimes[i].end(), RideTimeComp);
     }
+    
 } // Scheduler::CreateRideTimes()
 
 
@@ -253,6 +273,8 @@ void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &d
 
 // Calls genPerms for each day of RideTimes, as days won't overlap
 void Scheduler::SetRideTimes() {
+    
+    // Each vector in RideTimes represents a day, so call genPerms for each day
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         bool b = false;
         genPerms(RideTimes[i], 0, b);
@@ -262,19 +284,32 @@ void Scheduler::SetRideTimes() {
 
 // Prints RideTimes based on predetermined output pattern
 void Scheduler::PrintRideTimes() {
+    
+    // For each day of the competition, print the RideTimes
     for(size_t i = 0; i < RideTimes.size(); ++i) {
+        
         cout << "DAY " << (i + 1) << ":\n";
         cout << "-------------------------------------\n";
+        
         for(size_t j = 0; j < RideTimes[i].size(); ++j) {
-            cout <<  "Rider: " << Riders[RideTimes[i][j].get_Rider_ID()].get_name() << "\n";
-            cout <<  "Division: " << Divisions[RideTimes[i][j].get_Division_ID()].get_Name() << "\n";
-            if(Riders[RideTimes[i][j].get_Rider_ID()].get_Coach_ID() < Coaches.size()) {
-                cout << "Coach: " << Coaches[Riders[RideTimes[i][j].get_Rider_ID()].get_Coach_ID()] << "\n";
+            
+            // Get the RideTime
+            RideTime &RideTime = RideTimes[i][j];
+            
+            // Print Rider, Division, and Coach
+            cout <<  "Rider: " << Riders[RideTime.get_Rider_ID()].get_name() << "\n";
+            cout <<  "Division: " << Divisions[RideTime.get_Division_ID()].get_Name() << "\n";
+            
+            if(Riders[RideTime.get_Rider_ID()].get_Coach_ID() < Coaches.size()) {
+                cout << "Coach: " << Coaches[Riders[RideTime.get_Rider_ID()].get_Coach_ID()] << "\n";
             }
             else {
                 cout << "Coach: No Coach\n";
             }
-            Time t = RideTimes[i][j].get_Time();
+            
+            // Print the time of the ride
+            Time t = RideTime.get_Time();
+            
             cout << "Time: " << t.get_hour() << ":";
             if((t.get_minute() / 10) == 0) {
                 cout << "0" << t.get_minute() << "\n";
@@ -285,4 +320,5 @@ void Scheduler::PrintRideTimes() {
             cout << "\n";
         }
     }
+    
 } // Scheduler::PrintRideTimes()

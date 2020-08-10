@@ -37,6 +37,9 @@ public:
     // Reads input and fills vectors for Coaches, Divisions, and Riders
     Scheduler();
     
+    // Helper function to read in the Riders
+    void ReadRiders(size_t num_coaches, size_t num_divisions, size_t num_riders);
+    
     // Initialize vector of RideTimes and leave Rider_ID as infinity (not yet
     // assigned)
     void CreateRideTimes();
