@@ -20,6 +20,39 @@
 
 using namespace std;
 
+
+// ---------------------------------------------------------
+//                    HELPER FUNCTIONS
+// ---------------------------------------------------------
+
+// Comparator for RideTimes
+bool RideTimeComp(RideTime &a, RideTime &b) {
+    if(a.get_Time().get_hour() == b.get_Time().get_hour()) {
+        return (a.get_Time().get_minute() < b.get_Time().get_minute());
+    }
+    else {
+        return (a.get_Time().get_hour() < b.get_Time().get_hour());
+    }
+} // RideTimeComp()
+
+
+// Returns true if two Times are within 'padding' amount of time in minutes
+bool withinTime(Time t1, Time t2, int padding) {
+    int t1min = (t1.get_hour() * 60) + t1.get_minute();
+    int t2min = (t2.get_hour() * 60) + t2.get_minute();
+    if((t1min - t2min) < padding) {
+        return true;
+    }
+    return false;
+} // withinTime()
+
+
+
+// ---------------------------------------------------------
+//                     SCHEDULER CLASS
+// ---------------------------------------------------------
+
+// Reads input and fills vectors for Coaches, Divisions, and Riders
 Scheduler::Scheduler() {
     // Read in first line of input and reserve data for properties
     string junk;;
@@ -112,15 +145,9 @@ Scheduler::Scheduler() {
     }
 } // Scheduler::Scheduler()
 
-bool RideTimeComp(RideTime &a, RideTime &b) {
-    if(a.get_Time().get_hour() == b.get_Time().get_hour()) {
-        return (a.get_Time().get_minute() < b.get_Time().get_minute());
-    }
-    else {
-        return (a.get_Time().get_hour() < b.get_Time().get_hour());
-    }
-} // RideTimeComp()
 
+// Initialize vector of RideTimes and leave Rider_ID as infinity (not yet
+// assigned)
 void Scheduler::CreateRideTimes() {
     // Get the number of days in the show
     size_t num_days = 0;
@@ -172,15 +199,9 @@ void Scheduler::CreateRideTimes() {
     }
 } // Scheduler::CreateRideTimes()
 
-bool withinTime(Time t1, Time t2, int padding) {
-    int t1min = (t1.get_hour() * 60) + t1.get_minute();
-    int t2min = (t2.get_hour() * 60) + t2.get_minute();
-    if((t1min - t2min) < padding) {
-        return true;
-    }
-    return false;
-} // withinTime()
 
+// Looks at the last 'padding' minutes from most recent RideTime and ensures
+// no coaching conflicts
 bool Scheduler::promising(std::vector<RideTime> &path, size_t permLength) {
     if(permLength == 0 || permLength == 1) {
         return true;
@@ -200,6 +221,9 @@ bool Scheduler::promising(std::vector<RideTime> &path, size_t permLength) {
     return true;
 } // Scheduler::promising()
 
+
+// Use backtracking to determine RideTimes so that no coach has conflicts,
+// immediately exit recursion as soon as solution is found
 void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &done) {
     if (promising(path, permLength)) {
         if(permLength == path.size()) {
@@ -226,6 +250,8 @@ void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &d
     }
 } // Scheduler::genPerms()
 
+
+// Calls genPerms for each day of RideTimes, as days won't overlap
 void Scheduler::SetRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         bool b = false;
@@ -233,6 +259,8 @@ void Scheduler::SetRideTimes() {
     }
 } // Scheduler::SetRideTimes()
 
+
+// Prints RideTimes based on predetermined output pattern
 void Scheduler::PrintRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         cout << "DAY " << (i + 1) << ":\n";

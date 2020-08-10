@@ -37,15 +37,22 @@ public:
     // Reads input and fills vectors for Coaches, Divisions, and Riders
     Scheduler();
     
-    //
+    // Initialize vector of RideTimes and leave Rider_ID as infinity (not yet
+    // assigned)
     void CreateRideTimes();
     
+    // Use backtracking to determine RideTimes so that no coach has conflicts,
+    // immediately exit recursion as soon as solution is found
     void genPerms(std::vector<RideTime> &path, size_t permLength, bool &done);
     
+    // Looks at the last 'padding' minutes from most recent RideTime and ensures
+    // no coaching conflicts
     bool promising(std::vector<RideTime> &path, size_t permLength);
     
+    // Calls genPerms for each day of RideTimes, as days won't overlap
     void SetRideTimes();
     
+    // Prints RideTimes based on predetermined output pattern
     void PrintRideTimes();
     
 };
