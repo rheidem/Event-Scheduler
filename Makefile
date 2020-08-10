@@ -1,28 +1,3 @@
-## EECS 281 Advanced Makefile
-
-# How to use this Makefile...
-###################
-###################
-##               ##
-##  $ make help  ##
-##               ##
-###################
-###################
-
-# IMPORTANT NOTES:
-#   1. Set EXECUTABLE to the command name from the project specification.
-#   2. To enable automatic creation of unit test rules, your program logic
-#      (where main() is) should be in a file named project*.cpp or
-#      specified in the PROJECTFILE variable.
-#   3. Files you want to include in your final submission cannot match the
-#      test*.cpp pattern.
-
-#######################
-# TODO (begin) #
-#######################
-# Change IDENTIFIER to match the project identifier given in the project spec.
-IDENTIFIER  = 0E04A31E0D60C01986ACB20081C9D8722A1899B6
-
 # Change EXECUTABLE to match the command name given in the project spec.
 EXECUTABLE  = scheduler
 
