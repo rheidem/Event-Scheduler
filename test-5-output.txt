@@ -1,0 +1,79 @@
+DAY 1:
+-------------------------------------
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 10:00
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: No Coach
+Time: 10:05
+
+Rider: Nelly Yunker
+Division: Training
+Coach: Darby Weerstra
+Time: 10:10
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 10:15
+
+Rider: Della Coplan
+Division: Training
+Coach: No Coach
+Time: 10:20
+
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 12:00
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: No Coach
+Time: 12:02
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 12:04
+
+Rider: Della Coplan
+Division: Training
+Coach: No Coach
+Time: 12:06
+
+Rider: Nelly Yunker
+Division: Training
+Coach: Darby Weerstra
+Time: 12:08
+
+DAY 2:
+-------------------------------------
+Rider: Vannessa Stong
+Division: Training
+Coach: Darby Weerstra
+Time: 10:00
+
+Rider: Ellyn Rasor
+Division: Training
+Coach: No Coach
+Time: 10:02
+
+Rider: Tamatha Clairmont
+Division: Training
+Coach: No Coach
+Time: 10:04
+
+Rider: Della Coplan
+Division: Training
+Coach: No Coach
+Time: 10:06
+
+Rider: Nelly Yunker
+Division: Training
+Coach: Darby Weerstra
+Time: 10:08
+

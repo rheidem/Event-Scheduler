@@ -13,6 +13,9 @@
 #include <vector>
 #include "Time.hpp"
 
+// ---------------------------------------------------------
+//                     DIVISION CLASS
+// ---------------------------------------------------------
 class Division {
 private:
     std::string Name;

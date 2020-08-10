@@ -13,6 +13,9 @@
 #include <limits>
 #include "Time.hpp"
 
+// ---------------------------------------------------------
+//                     RIDETIME CLASS
+// ---------------------------------------------------------
 class RideTime {
 private:
     Time Time;

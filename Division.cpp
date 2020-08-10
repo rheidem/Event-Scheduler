@@ -14,6 +14,9 @@
 
 using namespace std;
 
+// Division constructor is responsible for reading in the 'Divisions:' section
+// of input file, with a 1 or 2 word name, then 3 days and start times per division
+
 Division::Division() {
     // Reserve vectors for day and time info, there are 3 events in eventing
     Event_Days.reserve(3);
@@ -50,4 +53,4 @@ Division::Division() {
             cin >> junk;
         }
     }
-}
+} // Division()

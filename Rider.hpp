@@ -12,10 +12,15 @@
 #include <iostream>
 #include "RideTime.hpp"
 
+// ---------------------------------------------------------
+//                       RIDER CLASS
+// ---------------------------------------------------------
 class Rider {
 private:
     std::string Name;
     
+    // Each Rider will have an ID to not confuse identical names, as well as
+    // an ID of their Division and Coach for easy lookup in the corresponding vectors
     size_t Division_ID;
     size_t ID;
     size_t Coach_ID;
@@ -28,7 +33,6 @@ public:
     size_t get_ID() { return ID; }
     size_t get_Coach_ID() { return Coach_ID; }
     
-    void genPerms(std::vector<RideTime> &path, size_t permLength);
 };
 
 

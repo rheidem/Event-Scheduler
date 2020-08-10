@@ -17,18 +17,27 @@
 #include <unordered_map>
 #include <vector>
 
+// ---------------------------------------------------------
+//                     SCHEDULER CLASS
+// ---------------------------------------------------------
 class Scheduler {
 private:
     std::vector<std::string> Coaches;
     std::vector<Division> Divisions;
     std::vector<Rider> Riders;
+    
+    // padding time represents the minimum number of minutes between a
+    // coach's riders
     int padding;
     
     std::vector<std::vector<RideTime>> RideTimes;
     
 public:
+    
+    // Reads input and fills vectors for Coaches, Divisions, and Riders
     Scheduler();
     
+    //
     void CreateRideTimes();
     
     void genPerms(std::vector<RideTime> &path, size_t permLength, bool &done);

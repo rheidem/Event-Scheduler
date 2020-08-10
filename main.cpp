@@ -12,6 +12,10 @@
 
 using namespace std;
 
+
+// ---------------------------------------------------------
+//                          MAIN
+// ---------------------------------------------------------
 int main(int argc, char * argv[]) {
     ios_base::sync_with_stdio(false);
     xcode_redirect(argc, argv);

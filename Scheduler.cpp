@@ -110,7 +110,7 @@ Scheduler::Scheduler() {
         
         Riders.emplace_back(Rider(Name, Division_ID, i, Coach_ID));
     }
-}
+} // Scheduler::Scheduler()
 
 bool RideTimeComp(RideTime &a, RideTime &b) {
     if(a.get_Time().get_hour() == b.get_Time().get_hour()) {
@@ -119,7 +119,7 @@ bool RideTimeComp(RideTime &a, RideTime &b) {
     else {
         return (a.get_Time().get_hour() < b.get_Time().get_hour());
     }
-}
+} // RideTimeComp()
 
 void Scheduler::CreateRideTimes() {
     // Get the number of days in the show
@@ -170,7 +170,7 @@ void Scheduler::CreateRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         sort(RideTimes[i].begin(), RideTimes[i].end(), RideTimeComp);
     }
-}
+} // Scheduler::CreateRideTimes()
 
 bool withinTime(Time t1, Time t2, int padding) {
     int t1min = (t1.get_hour() * 60) + t1.get_minute();
@@ -179,7 +179,7 @@ bool withinTime(Time t1, Time t2, int padding) {
         return true;
     }
     return false;
-}
+} // withinTime()
 
 bool Scheduler::promising(std::vector<RideTime> &path, size_t permLength) {
     if(permLength == 0 || permLength == 1) {
@@ -198,7 +198,7 @@ bool Scheduler::promising(std::vector<RideTime> &path, size_t permLength) {
         i++;
     }
     return true;
-}
+} // Scheduler::promising()
 
 void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &done) {
     if (promising(path, permLength)) {
@@ -224,14 +224,14 @@ void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &d
             }
         }
     }
-}
+} // Scheduler::genPerms()
 
 void Scheduler::SetRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
         bool b = false;
         genPerms(RideTimes[i], 0, b);
     }
-}
+} // Scheduler::SetRideTimes()
 
 void Scheduler::PrintRideTimes() {
     for(size_t i = 0; i < RideTimes.size(); ++i) {
@@ -257,4 +257,4 @@ void Scheduler::PrintRideTimes() {
             cout << "\n";
         }
     }
-}
+} // Scheduler::PrintRideTimes()
