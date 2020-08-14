@@ -13,6 +13,7 @@
 * [Usage](#usage)
   * [Input](#input)
   * [Ouput](#output)
+* [Algorithm](#algorithm)
 * [Contact](#contact)
 
 
@@ -128,6 +129,61 @@ Time: 10:10
 ```
 
 You'll notice at the top this section of output is for the first day of the show. Then we see three ride times. You will notice the Time for each is five minutes apart, which is because of Eventing's timing. There are usually 5 minutes between riders, which this program takes into account. We can also see the algorithm was successful because we specified 8 minutes of padding time between rider's for each coach, and our coach Isa Parry has 10 minutes between her two riders: Vannessa Stong and Nelly Yunker.
+
+
+
+<!-- CONTACT -->
+## Algorithm
+
+As I have previously mentioned the algorithm responsible for determing ride times with non-overlapping coaches is of the backtracking family. 
+
+How this algorithm works is defined here:
+* First, generate a list of RideTime objects, that contain the correct time and division, but have no defined rider or coach
+* Add a rider to the next ride time
+* Run a promising() function to determine if this coach and rider conflicts with coaches in the last X minutes
+* If so, reset coach and rider to null and backtrack, keeping track of which have already been tried for this space
+* If no conflicts, keep adding riders until we get to the end of a day
+* Once the end of a day occurs, go up the recursion stack and return that we found a solution
+* Proceed to next day of the event
+
+A few things to note in this algorithm is the main recursion is tail-recursive, reusing stack frames, and will not have overflow. As this is a constraint satisfction problem and we only need one solution for each day, the algorithm stops looking after once a solution is found. This algorithm and project in whole is very dependent on OOP and with many classes, a copy/paste of the algorithm's code might not do it justice, but for reference, I have included it below.
+
+```
+void Scheduler::genPerms(std::vector<RideTime> &path, size_t permLength, bool &done) { 
+    if (promising(path, permLength)) {        
+        if(permLength == path.size()) {
+            done = true;
+            return;
+        }
+        else {
+            Division &div = Divisions[path[permLength].get_Division_ID()];
+
+            for(size_t j = 0; j < div.Riders.size(); j++) {
+                if(div.Selected_Riders[j][path[permLength].get_Event_Number()] == false) {
+                    
+                    // Put the next available Rider into this RideTime
+                    path[permLength].set_Rider_ID(div.Riders[j]);
+                    div.Selected_Riders[j][path[permLength].get_Event_Number()] = true;
+
+                    // Look at the next RideTime
+                    genPerms(path, permLength + 1, done);
+                    
+                    // If a solution is found, return and end recursion
+                    if(done == true) {
+                        return;
+                    }
+                    
+                    // Reset the Rider at current RideTime back to infinity
+                    path[permLength].set_Rider_ID(std::numeric_limits<size_t>::max());
+                    div.Selected_Riders[j][path[permLength].get_Event_Number()] = false;
+                }
+            }
+            
+        }
+    }
+} 
+```
+
 
 
 <!-- CONTACT -->
