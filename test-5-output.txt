@@ -2,7 +2,7 @@ DAY 1:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 10:00
 
 Rider: Ellyn Rasor
@@ -12,7 +12,7 @@ Time: 10:05
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 10:10
 
 Rider: Tamatha Clairmont
@@ -27,7 +27,7 @@ Time: 10:20
 
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 12:00
 
 Rider: Ellyn Rasor
@@ -47,14 +47,14 @@ Time: 12:06
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 12:08
 
 DAY 2:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 10:00
 
 Rider: Ellyn Rasor
@@ -74,6 +74,6 @@ Time: 10:06
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Isa Parry
 Time: 10:08
 
