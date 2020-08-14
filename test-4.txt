@@ -1,28 +1,28 @@
 4 coaches, 2 divisions, 14 riders, 10 min padding
 
 Coaches:
-Darby Weerstra
-Ryan Heidema
-Dakota Paasman
-Susan Weerstra
+Dexter Thompson
+Wilma Fountain
+Kiefer Norton
+Mikayla Beltran
 
 Divisions:
 Training, 1 08:45, 1 14:00, 2 10:00
 Novice, 1 08:55, 1 14:00, 2 10:04
 
 Riders:
-Vannessa Stong, Darby Weerstra, Training
+Vannessa Stong, Dexter Thompson, Training
 Nelly Yunker, No Coach, Training
-Ellyn Rasor, Ryan Heidema, Training
+Ellyn Rasor, Wilma Fountain, Training
 Tamatha Clairmont, No Coach, Training
-Della Coplan, Susan Weerstra, Training
-Carla Pfeil, Dakota Paasman, Training
+Della Coplan, Mikayla Beltran, Training
+Carla Pfeil, Kiefer Norton, Training
 Deena Spooner, No Coach, Training
-Leighann Wymore, Susan Weerstra, Novice
+Leighann Wymore, Mikayla Beltran, Novice
 Pearlie Klos, No Coach, Novice
-Kathey Frame, Dakota Paasman, Novice
+Kathey Frame, Kiefer Norton, Novice
 Mimi Haught, No Coach, Novice
-Stephany Stryker, Ryan Heidema, Novice
-Maryanna Terra, Darby Weerstra, Novice
+Stephany Stryker, Wilma Fountain, Novice
+Maryanna Terra, Dexter Thompson, Novice
 Brook Chennault, No Coach, Novice
 
