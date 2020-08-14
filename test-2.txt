@@ -1,18 +1,18 @@
 3 coaches, 2 divisions, 6 riders, 10 min padding
 
 Coaches:
-Darby Weerstra
-Ryan Heidema
-Susan Weerstra
+Jody Charles
+Terry Dunkley
+Faizan Davies
 
 Divisions:
 Beginner Novice, 1 08:45, 1 13:20, 2 10:40
 Novice, 1 10:10, 1 14:00, 2 12:15
 
 Riders:
-Vannessa Stong, Darby Weerstra, Novice
-Nelly Yunker, Darby Weerstra, Beginner Novice
-Ellyn Rasor, Ryan Heidema, Beginner Novice
-Tamatha Clairmont, Susan Weerstra, Novice
-Della Coplan, Ryan Heidema, Novice
-Carla Pfeil, Susan Weerstra, Beginner Novice
+Vannessa Stong, Jody Charles, Novice
+Nelly Yunker, Jody Charles, Beginner Novice
+Ellyn Rasor, Terry Dunkley, Beginner Novice
+Tamatha Clairmont, Faizan Davies, Novice
+Della Coplan, Terry Dunkley, Novice
+Carla Pfeil, Faizan Davies, Beginner Novice
