@@ -2,32 +2,32 @@ DAY 1:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 8:45
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 8:50
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 8:55
 
 Rider: Tamatha Clairmont
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 9:00
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 9:05
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 9:10
 
 Rider: Deena Spooner
@@ -37,32 +37,32 @@ Time: 9:15
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 10:10
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 10:15
 
 Rider: Pearlie Klos
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 10:20
 
 Rider: Mimi Haught
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 10:25
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 10:30
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 10:35
 
 Rider: Brook Chennault
@@ -72,22 +72,22 @@ Time: 10:40
 
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 13:20
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 13:22
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 13:24
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 13:26
 
 Rider: Deena Spooner
@@ -97,32 +97,32 @@ Time: 13:28
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 13:30
 
 Rider: Tamatha Clairmont
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 13:32
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 14:00
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 14:02
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 14:04
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 14:06
 
 Rider: Brook Chennault
@@ -132,34 +132,34 @@ Time: 14:08
 
 Rider: Pearlie Klos
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 14:10
 
 Rider: Mimi Haught
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 14:12
 
 DAY 2:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 10:40
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 10:42
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 10:44
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 10:46
 
 Rider: Deena Spooner
@@ -169,32 +169,32 @@ Time: 10:48
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 10:50
 
 Rider: Tamatha Clairmont
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 10:52
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 12:15
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 12:17
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 12:19
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 12:21
 
 Rider: Brook Chennault
@@ -204,11 +204,11 @@ Time: 12:23
 
 Rider: Pearlie Klos
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 12:25
 
 Rider: Mimi Haught
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 12:27
 

@@ -2,93 +2,93 @@ DAY 1:
 -------------------------------------
 Rider: Nelly Yunker
 Division: Beginner Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 8:45
 
 Rider: Ellyn Rasor
 Division: Beginner Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 8:50
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 8:55
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 10:10
 
 Rider: Tamatha Clairmont
 Division: Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 10:15
 
 Rider: Della Coplan
 Division: Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 10:20
 
 Rider: Nelly Yunker
 Division: Beginner Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 13:20
 
 Rider: Ellyn Rasor
 Division: Beginner Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 13:22
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 13:24
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 14:00
 
 Rider: Tamatha Clairmont
 Division: Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 14:02
 
 Rider: Della Coplan
 Division: Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 14:04
 
 DAY 2:
 -------------------------------------
 Rider: Nelly Yunker
 Division: Beginner Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 10:40
 
 Rider: Ellyn Rasor
 Division: Beginner Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 10:42
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 10:44
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Jody Charles
 Time: 12:15
 
 Rider: Tamatha Clairmont
 Division: Novice
-Coach: Susan Weerstra
+Coach: Faizan Davies
 Time: 12:17
 
 Rider: Della Coplan
 Division: Novice
-Coach: Ryan Heidema
+Coach: Terry Dunkley
 Time: 12:19
 
