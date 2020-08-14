@@ -2,7 +2,7 @@ DAY 1:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 8:45
 
 Rider: Nelly Yunker
@@ -12,12 +12,12 @@ Time: 8:50
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 8:55
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 8:55
 
 Rider: Tamatha Clairmont
@@ -32,12 +32,12 @@ Time: 9:00
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 9:05
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 9:05
 
 Rider: Deena Spooner
@@ -52,17 +52,17 @@ Time: 9:10
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 9:15
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 9:15
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 9:20
 
 Rider: Brook Chennault
@@ -72,22 +72,22 @@ Time: 9:25
 
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 14:00
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 14:00
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 14:02
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 14:02
 
 Rider: Nelly Yunker
@@ -122,39 +122,39 @@ Time: 14:08
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 14:10
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 14:10
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 14:12
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 14:12
 
 DAY 2:
 -------------------------------------
 Rider: Vannessa Stong
 Division: Training
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 10:00
 
 Rider: Ellyn Rasor
 Division: Training
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 10:02
 
 Rider: Della Coplan
 Division: Training
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 10:04
 
 Rider: Pearlie Klos
@@ -164,7 +164,7 @@ Time: 10:04
 
 Rider: Carla Pfeil
 Division: Training
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 10:06
 
 Rider: Mimi Haught
@@ -189,7 +189,7 @@ Time: 10:10
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Dexter Thompson
 Time: 10:10
 
 Rider: Deena Spooner
@@ -199,16 +199,16 @@ Time: 10:12
 
 Rider: Stephany Stryker
 Division: Novice
-Coach: Ryan Heidema
+Coach: Wilma Fountain
 Time: 10:12
 
 Rider: Leighann Wymore
 Division: Novice
-Coach: Susan Weerstra
+Coach: Mikayla Beltran
 Time: 10:14
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dakota Paasman
+Coach: Kiefer Norton
 Time: 10:16
 
