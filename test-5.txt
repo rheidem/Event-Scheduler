@@ -1,14 +1,14 @@
 1 coaches, 1 division, 5 riders, 8 min padding
 
 Coaches:
-Darby Weerstra
+Isa Parry
 
 Divisions:
 Training, 1 10:00, 1 12:00, 2 10:00
 
 Riders:
-Vannessa Stong, Darby Weerstra, Training
-Nelly Yunker, Darby Weerstra, Training
+Vannessa Stong, Isa Parry, Training
+Nelly Yunker, Isa Parry, Training
 Ellyn Rasor, No Coach, Training
 Tamatha Clairmont, No Coach, Training
 Della Coplan, No Coach, Training
