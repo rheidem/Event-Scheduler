@@ -2,6 +2,7 @@
 # Event Scheduler
 
 
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -17,16 +18,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+My inspiration for this project came from talking with my girlfriend and her mom at a horse riding competition. In the world of [Eventing](https://en.wikipedia.org/wiki/Eventing), technology is relatively new and I saw a way I could put some of my knowledge on backtracking algorithms to use. At these Events, there are multiple riders riding in several divisions, many of which have the same coach. Each rider has three ride times throughout multiple days (one for each Event) and there are often conflicts between riders who have the same coach. Before each rider's ride time their coach gives some advice for the ride and if a coach has two riders both riding at the same time in different areas, the coach cannot be in two places at once. This immediately gave me the idea to solve this problem with backtracking.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* For each ride time there is a coach who cannot have other ride times in the last X minutes
+* When deciding which rider to place into a ride time, we can backtrack and choose someone else if we see conflicts
+* This process greatly reduces the amount of time spent figuring out a schedule, which is presently done by hand (for possibly hundreds of riders)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+When deciding which language to use to solve this problem I immediately decided on C++ as it performs well for complex problems and algorithms.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Below in the Usage section I will specify the I/O of the program and how it works.
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -39,31 +40,22 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+As this project is written 100% in C++, there is very little setup, however there are future plans to extend this to a web application.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+The project includes a Makefile, so the only thing needed is a working version of g++.
+* g++
 ```sh
-npm install npm@latest -g
+$ sudo apt install build-essential
 ```
+This installs g++ for Ubuntu 20.04 by installation of the development package build-essential.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
+git clone https://github.com/rheidem/Event-Scheduler.git
 ```
 
 
@@ -82,4 +74,4 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Ryan Heidema - [@ryan-heidema](https://www.linkedin.com/in/ryan-heidema/) - rheidem@umich.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/rheidem/Event-Scheduler](https://github.com/rheidem/Event-Scheduler)
