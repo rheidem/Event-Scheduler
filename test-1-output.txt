@@ -2,27 +2,27 @@ DAY 1:
 -------------------------------------
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 8:30
 
 Rider: Della Coplan
 Division: Training
-Coach: Jack Beltz
+Coach: Suman Salgado
 Time: 8:35
 
 Rider: Leighann Wymore
 Division: Training
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 8:40
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Dakota Paasman
+Coach: Cameron Seymour
 Time: 8:45
 
 Rider: Mana Nigh
 Division: Training
-Coach: Jacob Knobloch
+Coach: Sylvie Mcmahon
 Time: 8:45
 
 Rider: Romana Lemond
@@ -32,7 +32,7 @@ Time: 8:50
 
 Rider: Stephany Stryker
 Division: Beginner Novice
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 8:50
 
 Rider: Mark Spies
@@ -42,7 +42,7 @@ Time: 8:55
 
 Rider: Kitty Narvaez
 Division: Beginner Novice
-Coach: Adam Knobloch
+Coach: Gracie Morton
 Time: 8:55
 
 Rider: Nobuko Petersen
@@ -72,27 +72,27 @@ Time: 9:10
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 10:10
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dean Weerstra
+Coach: Boyd Beattie
 Time: 10:15
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 10:20
 
 Rider: Sharda Wrench
 Division: Novice
-Coach: Emily Heidema
+Coach: Pascal Erickson
 Time: 10:25
 
 Rider: Angela Reser
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 10:30
 
 Rider: Keith Sandifer
@@ -107,27 +107,27 @@ Time: 10:40
 
 Rider: Ellyn Rasor
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 12:10
 
 Rider: Pearlie Klos
 Division: Preliminary
-Coach: Mason Weerstra
+Coach: Roshan Mcknight
 Time: 12:15
 
 Rider: Mimi Haught
 Division: Preliminary
-Coach: Susan Weerstra
+Coach: Krisha Kaiser
 Time: 12:20
 
 Rider: Refugia Browning
 Division: Preliminary
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 12:25
 
 Rider: Dorene Earls
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 12:30
 
 Rider: Larraine Coatney
@@ -137,12 +137,12 @@ Time: 12:35
 
 Rider: Tamatha Clairmont
 Division: Intermediate
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 13:00
 
 Rider: Katy Mcdonald
 Division: Intermediate
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 13:05
 
 Rider: Cody Thorn
@@ -152,17 +152,17 @@ Time: 13:10
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Dakota Paasman
+Coach: Cameron Seymour
 Time: 13:20
 
 Rider: Stephany Stryker
 Division: Beginner Novice
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 13:22
 
 Rider: Kitty Narvaez
 Division: Beginner Novice
-Coach: Adam Knobloch
+Coach: Gracie Morton
 Time: 13:24
 
 Rider: Guillermo Zick
@@ -182,22 +182,22 @@ Time: 13:30
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 14:00
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dean Weerstra
+Coach: Boyd Beattie
 Time: 14:02
 
 Rider: Sharda Wrench
 Division: Novice
-Coach: Emily Heidema
+Coach: Pascal Erickson
 Time: 14:04
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 14:06
 
 Rider: Keith Sandifer
@@ -212,27 +212,27 @@ Time: 14:10
 
 Rider: Angela Reser
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 14:12
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 15:00
 
 Rider: Della Coplan
 Division: Training
-Coach: Jack Beltz
+Coach: Suman Salgado
 Time: 15:02
 
 Rider: Leighann Wymore
 Division: Training
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 15:04
 
 Rider: Mana Nigh
 Division: Training
-Coach: Jacob Knobloch
+Coach: Sylvie Mcmahon
 Time: 15:06
 
 Rider: Romana Lemond
@@ -257,27 +257,27 @@ Time: 15:14
 
 Rider: Ellyn Rasor
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 15:30
 
 Rider: Pearlie Klos
 Division: Preliminary
-Coach: Mason Weerstra
+Coach: Roshan Mcknight
 Time: 15:32
 
 Rider: Mimi Haught
 Division: Preliminary
-Coach: Susan Weerstra
+Coach: Krisha Kaiser
 Time: 15:34
 
 Rider: Refugia Browning
 Division: Preliminary
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 15:36
 
 Rider: Dorene Earls
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 15:38
 
 Rider: Larraine Coatney
@@ -287,12 +287,12 @@ Time: 15:40
 
 Rider: Tamatha Clairmont
 Division: Intermediate
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 16:30
 
 Rider: Katy Mcdonald
 Division: Intermediate
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 16:32
 
 Rider: Cody Thorn
@@ -304,12 +304,12 @@ DAY 2:
 -------------------------------------
 Rider: Tamatha Clairmont
 Division: Intermediate
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 10:00
 
 Rider: Katy Mcdonald
 Division: Intermediate
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 10:02
 
 Rider: Cody Thorn
@@ -319,17 +319,17 @@ Time: 10:04
 
 Rider: Carla Pfeil
 Division: Beginner Novice
-Coach: Dakota Paasman
+Coach: Cameron Seymour
 Time: 10:40
 
 Rider: Stephany Stryker
 Division: Beginner Novice
-Coach: Chad Heidema
+Coach: Kiaan Quinn
 Time: 10:42
 
 Rider: Kitty Narvaez
 Division: Beginner Novice
-Coach: Adam Knobloch
+Coach: Gracie Morton
 Time: 10:44
 
 Rider: Guillermo Zick
@@ -349,22 +349,22 @@ Time: 10:50
 
 Rider: Vannessa Stong
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 12:15
 
 Rider: Kathey Frame
 Division: Novice
-Coach: Dean Weerstra
+Coach: Boyd Beattie
 Time: 12:17
 
 Rider: Sharda Wrench
 Division: Novice
-Coach: Emily Heidema
+Coach: Pascal Erickson
 Time: 12:19
 
 Rider: Maryanna Terra
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 12:21
 
 Rider: Keith Sandifer
@@ -379,32 +379,32 @@ Time: 12:25
 
 Rider: Angela Reser
 Division: Novice
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 12:27
 
 Rider: Ellyn Rasor
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 13:00
 
 Rider: Pearlie Klos
 Division: Preliminary
-Coach: Mason Weerstra
+Coach: Roshan Mcknight
 Time: 13:02
 
 Rider: Mimi Haught
 Division: Preliminary
-Coach: Susan Weerstra
+Coach: Krisha Kaiser
 Time: 13:04
 
 Rider: Refugia Browning
 Division: Preliminary
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 13:06
 
 Rider: Dorene Earls
 Division: Preliminary
-Coach: Ryan Heidema
+Coach: Rogan Cabrera
 Time: 13:08
 
 Rider: Larraine Coatney
@@ -414,22 +414,22 @@ Time: 13:10
 
 Rider: Nelly Yunker
 Division: Training
-Coach: Darby Weerstra
+Coach: Floyd Jefferson
 Time: 14:00
 
 Rider: Della Coplan
 Division: Training
-Coach: Jack Beltz
+Coach: Suman Salgado
 Time: 14:02
 
 Rider: Leighann Wymore
 Division: Training
-Coach: Diane Heidema
+Coach: Kya Randolph
 Time: 14:04
 
 Rider: Mana Nigh
 Division: Training
-Coach: Jacob Knobloch
+Coach: Sylvie Mcmahon
 Time: 14:06
 
 Rider: Romana Lemond
